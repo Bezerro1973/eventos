@@ -1,0 +1,6 @@
+hibernate.connection.driver_class = org.mysql.jdbc.Driver
+hibernate.connection.url = jdbc:mysql://localhost:3306/eventosapp
+hibernate.connection.username = root
+hibernate.connection.password = ""
+hibernate.dialect = org.hibernate.dialect.MSQLDialect
+hibernate.show_sql = true

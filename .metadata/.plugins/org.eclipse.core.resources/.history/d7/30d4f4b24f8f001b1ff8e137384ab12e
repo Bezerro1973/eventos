@@ -1,0 +1,10 @@
+package com.eventosapp.repositore;
+
+import org.springframework.stereotype.Repository;
+
+
+
+@Repository
+public interface EventoRepositore extends CrudRepository<Eventos,Integer> {
+
+}

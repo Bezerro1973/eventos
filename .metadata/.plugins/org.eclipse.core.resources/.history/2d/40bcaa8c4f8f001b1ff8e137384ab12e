@@ -1,0 +1,7 @@
+package com.eventosapp.repositore;
+
+import com.eventosapp.models.Eventos;
+
+public interface EventoRepositore extends JpaRepository<Eventos,Integer> {
+
+}
